@@ -1,0 +1,103 @@
+@font-face {
+    font-family: OpenSans;
+    src: url(OpenSans-VariableFont_wdth\,wght.ttf);
+}
+@font-face {
+    font-family: RobotoLight;
+    src: url(Roboto-Light.ttf);
+}
+@font-face {
+    font-family: RobotoRegular;
+    src: url(Roboto-Regular.ttf);
+}
+@font-face {
+    font-family: RobotoMedium;
+    src: url(Roboto-Medium.ttf);
+}
+@font-face {
+    font-family: Josef;
+    src: url(JosefinSans-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: Yesev;
+    src: url(YesevaOne-Regular.ttf);
+}
+    h1{
+        font-size: 4rem;
+        font-weight: 300;
+        font-family: Yesev, RobotoLight, OpenSans, sans-serif;
+        letter-spacing: -1.5px;
+    }
+    h2{
+        font-size: 3.75rem;
+        font-weight: 300;
+        font-family: Yesev, RobotoLight, OpenSans, sans-serif;
+        letter-spacing: -0.5px;
+    }
+    h3{
+        font-size: 3rem;
+        font-weight: 400;
+        font-family: Yesev,RobotoRegular, OpenSans, sans-serif;
+        letter-spacing: 0.25px;
+    }
+    h4{
+        font-size: 2.125rem;
+        font-weight: 400;
+        font-family: Yesev, RobotoRegular, OpenSans, sans-serif;
+        letter-spacing: 0.25px;
+        color: #2b86a2;
+    }
+    h5{
+        font-size: 1.5rem;
+        font-weight: 400;
+        font-family: Yesev, RobotoRegular, OpenSans, sans-serif;
+        letter-spacing: 0px;
+    }
+    .subtitle1 {
+        font-size: 1rem;
+        font-weight: 400;
+        font-family: Josef, RobotoRegular, OpenSans, sans-serif;
+        letter-spacing: 0.15px;
+        color: #00296b;
+    }
+    .subtitle2 {
+        font-size: 0.875rem;
+        font-weight: 500;
+        font-family: Josef, RobotoMedium, OpenSans, sans-serif;
+        letter-spacing: 0.1px;
+        color: #00296b;
+    }
+    .body1 {
+        font-size: 1rem;
+        font-weight: 400;
+        font-family: Josef, RobotoRegular, OpenSans, sans-serif;
+        letter-spacing: 0.5px;
+        color: #00296b;
+    }
+    .body2 {
+        font-size: 0.875rem;
+        font-weight: 400;
+        font-family: Josef, RobotoRegular, OpenSans, sans-serif;
+        letter-spacing: 0.25px;
+        color: #00296b;
+    }
+    .caption {
+        font-size: 0.75rem;
+        font-weight: 400;
+        font-family: Josef, RobotoRegular, OpenSans, sans-serif;
+        letter-spacing: 0.4px;
+        color: #00296b;
+    } 
+    .overline {
+        font-size: 0.625rem;
+        font-weight: 400;
+        font-family: Josef, RobotoRegular, OpenSans, sans-serif;
+        letter-spacing: 1.5px;
+        color: #00296b;
+    } 
+    /* Mobile Settings */
+@media only screen and (max-width: 599px) {
+    h2{
+        font-size: 1.8rem;
+    }
+}

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess the Number</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="stylesheet" href="Fonts/Fonts.css">
+</head>
+<body>
+    <div id="mainMontainer">
+        <div id="info">
+            <!-- title -->
+            <h2 id="titleShort">Guess<span id="titleLong"> the Number</span></h2>
+            <p class="subtitle1">A boring game for a bored person!</p>
+            <!-- game's rule -->
+            <p class="caption">A random number is picked between 
+                1 to 100. Can you guess it?</p>
+            <div id="currecrNumber">
+                <img src="image/Animation - 1740578056709.gif"
+                id="image">
+                <div>
+                    <p class="caption">The Number is:</p>
+                    <h4 id="generatedNumber"></h4>
+                </div>
+            </div>
+            <!-- Robot Number & Robot hints-->
+        </div>
+        <div id="secondContainer">
+            <div id="userGuess">
+                <input class="input" type="text" id="number1" maxlength="1" readonly />
+                <input class="input" type="text" id="number2" maxlength="1" readonly />
+                <input class="input" type="text" id="number3" maxlength="1" readonly />
+            </div>
+            <div>
+                <p id="hint" class="caption">Start to Guess!</p>
+            </div>
+            <div id="game">
+                <!-- User's input -->
+                <div class="numberHolder subtitle1" onclick="appendNumber(1)">1</div>
+                <div class="numberHolder subtitle1" onclick="appendNumber(2)">2</div>
+                <div class="numberHolder subtitle1" onclick="appendNumber(3)">3</div>
+                <div class="numberHolder subtitle1" onclick="appendNumber(4)">4</div>
+                <div class="numberHolder subtitle1" onclick="appendNumber(5)">5</div>
+                <div class="numberHolder subtitle1" onclick="appendNumber(6)">6</div>
+                <div class="numberHolder subtitle1" onclick="appendNumber(7)">7</div>
+                <div class="numberHolder subtitle1" onclick="appendNumber(8)">8</div>
+                <div class="numberHolder subtitle1" onclick="appendNumber(9)">9</div>
+                <div class="numberHolder subtitle1" onclick="backspace()">
+                    <img src="image/backspace.svg">
+                </div>
+                <div class="numberHolder subtitle1" onclick="appendNumber(0)">0</div>
+                <div class="numberHolder subtitle1" onclick="checkGuess()">
+                    <img src="image/check.svg">
+                </div>
+            </div>
+        </div>
+    </div> 
+    <script src="randomNumber.js" defer></script>
+</body>
+</html>
