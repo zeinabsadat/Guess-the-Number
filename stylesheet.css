@@ -99,7 +99,7 @@ body, html{
 }
 #game{
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     align-items: center;
     justify-items: center;
     gap: var(--distance-8);
